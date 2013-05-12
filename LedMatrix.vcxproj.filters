@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arduino">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{512f3cdb-635c-43a9-b9e9-5c84f7d6a38b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LedMatrix.pde" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".LedMatrix.vsarduino.h">
+      <Filter>Arduino</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenBuffer.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="cppfix.h">
+      <Filter>Arduino</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="arduino.h">
+      <Filter>Arduino</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryFree.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ScreenBuffer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryFree.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
